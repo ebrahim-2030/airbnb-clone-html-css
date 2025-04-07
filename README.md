@@ -1,6 +1,6 @@
 # Airbnb Clone
 
-This is a **responsive frontend clone** of the Airbnb homepage, built using only **HTML** and **CSS**. It was created as a practice project to improve web design and layout skills without using JavaScript.
+This is a *A responsive Airbnb homepage clone built using only HTML and CSS. Focuses on layout, design, and user interface, Includes three pages: Popular Places, Travel Outside, and Online Packages*.
 
 ---
 
