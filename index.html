@@ -13,6 +13,44 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    
+      <!-- ========================= HEADER ========================= -->
+      <div class="header">
+        <nav id="nav-bar">
+          <img src="./images/logo.png" alt="" class="logo" />
+          <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="./house.html">Travel Outside</a></li>
+            <li><a href="./listing.html">Online packages</a></li>
+          </ul>
+          <a href="#" class="register-btn">Register Now</a>
+          <i class="fas fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        <div class="container">
+          <h1>Find Your Next Stay</h1>
+          <div class="search-bar">
+            <form action="">
+              <div class="location-input">
+                <label>Location</label>
+                <input type="text" placeholder="Where are you going?" />
+              </div>
+              <div>
+                <label>Check In</label>
+                <input type="text" placeholder="Add Date" />
+              </div>
+              <div>
+                <label>Check Out</label>
+                <input type="text" placeholder="Add Date" />
+              </div>
+              <div>
+                <label>Guest</label>
+                <input type="text" placeholder="Add Guest" />
+              </div>
+              <button type="submit">
+                <img src="./images/search.png" alt="" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
