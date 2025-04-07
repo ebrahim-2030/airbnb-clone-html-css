@@ -373,24 +373,116 @@ nav .fa-bars {
   }
 }
 
-
 /* ========================= LISTING - PAGE ========================= */
 /* ========================= NAVBAR ========================= */
 .navbar-white {
-    background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-  }
-  .navbar-white .nav-links li a {
-    color: #444;
-  }
-  
-  .navbar-white .register-btn {
-    background-color: #ff5361;
-    color: #fff;
-  }
-  nav.navbar-white .fa-bars {
-    color: #444;
-  }
-  .navbar-white .active::after {
-    background-color: #ff5361;
-  }
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar-white .nav-links li a {
+  color: #444;
+}
+
+.navbar-white .register-btn {
+  background-color: #ff5361;
+  color: #fff;
+}
+nav.navbar-white .fa-bars {
+  color: #444;
+}
+.navbar-white .active::after {
+  background-color: #ff5361;
+}
+
+/* ========================= LIST CONTAINER ========================= */
+.list-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left-col {
+  flex-basis: 70%;
+}
+.right-col {
+  flex-basis: 25%;
+}
+.left-col h1 {
+  color: #444;
+  font-family: "pop-med";
+  font-size: 2vw;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.house {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+.house-img {
+  flex-basis: 40%;
+}
+.house-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+.house-info {
+  flex-basis: 58%;
+  color: #555;
+}
+.house-info h3 {
+  font-family: "pop-med";
+  color: #444;
+  font-size: 22px;
+  margin: 4px 0;
+}
+.house-info i {
+  color: #ff5361;
+  font-size: 18px;
+  margin: 10px 1px;
+}
+.house-price {
+  text-align: right;
+}
+.house-price h4 {
+  font-size: 20pxx;
+}
+.house-price h4 span {
+  font-size: 14px;
+}
+.sidebar {
+  border: 1px solid #999;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.sidebar h2 {
+  color: #444;
+}
+.sidebar h3 {
+  margin: 20px 0 10px;
+}
+.fillter {
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+.fillter p {
+  flex: 1;
+}
+.fillter input {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.sidebar-link {
+  text-align: right;
+  margin: 20px 0;
+}
+.sidebar-link a {
+  text-decoration: none;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
