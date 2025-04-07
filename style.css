@@ -221,3 +221,14 @@ nav {
     border-radius: 30px;
     font-size: 20px;
   }
+
+  /* ========================= ABOUT ========================= */
+.about-msg {
+    text-align: center;
+    margin: 80px 0;
+    font-size: 17px;
+  }
+  .about-msg h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
