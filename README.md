@@ -6,7 +6,7 @@ This is a *A responsive Airbnb homepage clone built using only HTML and CSS. Foc
 
 ## 🚀 Live Demo
 
-> [https://airbnb-clone-html-css-pi.vercel.app/index.html]
+> Check out the live demo of the project here: [Live Demo](https://airbnb-clone-html-css-pi.vercel.app/index.html)
 
 ---
 
