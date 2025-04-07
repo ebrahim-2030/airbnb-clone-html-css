@@ -186,49 +186,90 @@ nav {
 
 /* ========================= TRAVELLERS STORIES ========================= */
 .stories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-    margin-bottom: 30px;
-  }
-  .stories div img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .stories div {
-    position: relative;
-    text-align: center;
-  }
-  .stories div p {
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    color: #fff;
-  }
-  .start-btn {
-    text-decoration: none;
-    background-color: #ff5361;
-    color: #fff;
-    width: 80%;
-    max-width: 350px;
-    display: block;
-    text-align: center;
-    margin: 60px auto;
-    padding: 15px;
-    border-radius: 30px;
-    font-size: 20px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.stories div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.stories div {
+  position: relative;
+  text-align: center;
+}
+.stories div p {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #fff;
+}
+.start-btn {
+  text-decoration: none;
+  background-color: #ff5361;
+  color: #fff;
+  width: 80%;
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: 60px auto;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+}
 
-  /* ========================= ABOUT ========================= */
+/* ========================= ABOUT ========================= */
 .about-msg {
-    text-align: center;
-    margin: 80px 0;
-    font-size: 17px;
-  }
-  .about-msg h3 {
-    font-size: 28px;
-    margin-bottom: 30px;
-  }
+  text-align: center;
+  margin: 80px 0;
+  font-size: 17px;
+}
+.about-msg h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* ========================= FOOTER ========================= */
+.footer {
+  margin: 80px 0 10px;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 10px;
+}
+.footer a i {
+  color: #999;
+}
+.footer hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background-color: #999;
+  margin: 20px 0;
+}
+.footer p {
+  margin-bottom: 15px;
+}
+.active {
+  position: relative;
+}
+.active::after {
+  content: "";
+  background-color: #fff;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
+  border-radius: 2px;
+}
+nav .fa-bars {
+  display: none;
+}
